@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Labor1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Labor1"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Labor1">
+
+    <TabBar>
+        <ShellContent
+            Title="Feladat 1"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Feladat 2"
+            ContentTemplate="{DataTemplate local:Feladat2Page}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Feladat 3"
+            ContentTemplate="{DataTemplate local:Feladat3Page}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Feladat 4"
+            ContentTemplate="{DataTemplate local:Feladat4Page}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Feladat 5"
+            ContentTemplate="{DataTemplate local:Feladat5Page}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Feladat 6"
+            ContentTemplate="{DataTemplate local:Feladat6Page}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Hazi Feladat"
+            ContentTemplate="{DataTemplate local:Hazi1Page}"
+            Route="MainPage" />
+    </TabBar>
+
+
+</Shell>

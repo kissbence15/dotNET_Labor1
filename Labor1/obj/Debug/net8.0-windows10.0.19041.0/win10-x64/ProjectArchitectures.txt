@@ -1,0 +1,1 @@
+D:\Egyetem\III. év\dotNET\Labor1\Labor1\Labor1.csproj;x64
