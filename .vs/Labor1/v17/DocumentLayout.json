@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Egyetem\\III. \u00E9v\\dotNET\\Labor1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81258723-01A2-4899-914B-DCB9E05EAF13}|Labor1\\Labor1.csproj|d:\\egyetem\\iii. \u00E9v\\dotnet\\labor1\\labor1\\feladat5page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81258723-01A2-4899-914B-DCB9E05EAF13}|Labor1\\Labor1.csproj|solutionrelative:labor1\\feladat5page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81258723-01A2-4899-914B-DCB9E05EAF13}|Labor1\\Labor1.csproj|d:\\egyetem\\iii. \u00E9v\\dotnet\\labor1\\labor1\\feladat3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81258723-01A2-4899-914B-DCB9E05EAF13}|Labor1\\Labor1.csproj|solutionrelative:labor1\\feladat3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Feladat5Page.xaml",
+              "DocumentMoniker": "D:\\Egyetem\\III. \u00E9v\\dotNET\\Labor1\\Labor1\\Feladat5Page.xaml",
+              "RelativeDocumentMoniker": "Labor1\\Feladat5Page.xaml",
+              "ToolTip": "D:\\Egyetem\\III. \u00E9v\\dotNET\\Labor1\\Labor1\\Feladat5Page.xaml",
+              "RelativeToolTip": "Labor1\\Feladat5Page.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T21:27:27.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Feladat3Page.xaml",
+              "DocumentMoniker": "D:\\Egyetem\\III. \u00E9v\\dotNET\\Labor1\\Labor1\\Feladat3Page.xaml",
+              "RelativeDocumentMoniker": "Labor1\\Feladat3Page.xaml",
+              "ToolTip": "D:\\Egyetem\\III. \u00E9v\\dotNET\\Labor1\\Labor1\\Feladat3Page.xaml",
+              "RelativeToolTip": "Labor1\\Feladat3Page.xaml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T21:22:13.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2,8 +2,168 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Labor1.Hazi1Page"
-             Title="Hazi 1">
-    <VerticalStackLayout>
+             Title="Házi Feladat">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30">
+            <Label
+                Text="Introducing"
+                FontAttributes="Bold"
+                VerticalOptions="Fill"
+            />
 
-    </VerticalStackLayout>
+            <Label
+                Text="Microsoft.Maui.Graphics.Controls"
+                FontAttributes="Bold"
+                VerticalOptions="Fill"
+                Margin="0,0,0,10"
+            />
+
+            <Label
+                Text="A .NET MAUI experiment that offers drawn controls allowing to choose between Cupertino, Fluent and Material."
+                VerticalOptions="Fill"
+                Margin="0,0,0,10"
+            />
+
+            <Label
+                Text="Button"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                Background="Gray"
+                TextColor="Black"
+                HeightRequest="40"
+                Padding="5"
+            />
+
+            <VerticalStackLayout
+                Padding="10"
+                Background="LightGray"
+                Margin="0, 0, 0, 20"
+            >
+                <Label
+                    Text="Button"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <Button
+                    Text="Button"
+                    VerticalOptions="Fill"
+                />
+
+                <Label
+                    Text="Disabled Button"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 7, 0, 7"
+                />
+
+                <Button
+                    Text="Disabled Button"
+                    IsEnabled="False"
+                    VerticalOptions="Fill"
+                />
+
+                <Label
+                    Text="Custom Button"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 7, 0, 7"
+                />
+
+                <Button
+                    Text="Button"
+                    Background="Red"
+                    VerticalOptions="Fill"
+                />
+            </VerticalStackLayout>
+
+            <Label
+                Text="CheckBox"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                Background="Gray"
+                TextColor="Black"
+                HeightRequest="40"
+                Padding="5"
+            />
+
+            <VerticalStackLayout
+                 Padding="10"
+                 Background="LightGray"
+                 Margin="0, 0, 0, 20"
+            >
+                <Label
+                    Text="Default"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <CheckBox />
+
+                <Label
+                    Text="Disabled"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <CheckBox IsEnabled="False"/>
+
+                <Label
+                    Text="Custom"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <CheckBox Color="Cyan"/>
+            </VerticalStackLayout>
+
+            <Label
+                Text="DatePicker"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                Background="Gray"
+                TextColor="Black"
+                HeightRequest="40"
+                Padding="5"
+            />
+
+            <VerticalStackLayout
+                 Padding="10"
+                 Background="LightGray"
+
+            >
+                <Label
+                    Text="Default"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <DatePicker />
+
+                <Label
+                    Text="Disabled"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <DatePicker IsEnabled="False"/>
+
+                <Label
+                    Text="Custom"
+                    TextColor="Black"
+                    FontSize="10"
+                    Margin="0, 0, 0, 7"
+                />
+
+                <DatePicker Background="ForestGreen"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

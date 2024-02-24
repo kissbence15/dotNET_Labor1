@@ -14,7 +14,7 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <VerticalStackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center"
+            <VerticalStackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center" Spacing="20"
                 >
                 <Image Source="dotnet_bot.png"
                         WidthRequest="200"
@@ -23,8 +23,8 @@
                 <Image Source="C:\Users\Kiss Bence\Pictures\Avatar\tumblr_pqxkvkiGTQ1rpwm80o1_250.jpg"
                         WidthRequest="200"
                         HeightRequest="200" />
-                
-                <Image Source="https://upload.wikimedia.org/wikipedia/commons/9/93/Orangutans2.jpg"
+
+                <Image Source="https://placebear.com/g/200/200"
                         WidthRequest="200"
                         HeightRequest="200" />
 
@@ -41,7 +41,7 @@
                 </HorizontalStackLayout>
             </VerticalStackLayout>
 
-            <Grid Grid.Row="0" Grid.Column="1"
+            <Grid Grid.Row="0" Grid.Column="1" RowSpacing="20"
                 >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -66,7 +66,7 @@
                         HeightRequest="200" />
 
                 <Image  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
-                        Source="https://upload.wikimedia.org/wikipedia/commons/9/93/Orangutans2.jpg"
+                        Source="https://placebear.com/g/200/200"
                         WidthRequest="200"
                         HeightRequest="200" />
 

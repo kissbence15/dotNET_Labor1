@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-24T19:15:47.198</Modified>
+      <Modified>2024-02-24T21:28:29.222</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-23T18:59:01.989</Modified>
+      <Modified>2024-02-24T20:51:16.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Labor1.runtimeconfig.json">
       <PackagePath>Labor1.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Labor1.dll">
       <PackagePath>Labor1.dll</PackagePath>
-      <Modified>2024-02-24T19:15:46.687</Modified>
+      <Modified>2024-02-24T21:28:28.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Labor1.exe</PackagePath>
-      <Modified>2024-02-24T19:15:46.687</Modified>
+      <Modified>2024-02-24T21:28:28.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -267,27 +267,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-21T12:02:09.653</Modified>
+      <Modified>2024-02-24T19:25:42.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-21T12:02:09.663</Modified>
+      <Modified>2024-02-24T19:25:42.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-21T12:02:09.677</Modified>
+      <Modified>2024-02-24T19:25:42.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-21T12:02:09.698</Modified>
+      <Modified>2024-02-24T19:25:42.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-21T12:02:09.776</Modified>
+      <Modified>2024-02-24T19:25:42.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\george_orwell.scale-100.jpeg">
+      <PackagePath>george_orwell.scale-100.jpeg</PackagePath>
+      <Modified>2024-02-24T19:22:05.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\III. év\dotNET\Labor1\Labor1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Labor1.deps.json">
       <PackagePath>Labor1.deps.json</PackagePath>
-      <Modified>2024-02-23T18:50:14.002</Modified>
+      <Modified>2024-02-24T20:51:16.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kiss Bence\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

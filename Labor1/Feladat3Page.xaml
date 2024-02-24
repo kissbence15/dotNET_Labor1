@@ -4,7 +4,7 @@
              x:Class="Labor1.Feladat3Page"
              Title="Feladat 3">
     <VerticalStackLayout>
-        <Grid Margin="0, 20, 60, 0" RowSpacing="30">
+        <Grid Margin="0, 20, 60, 0" RowSpacing="30" Padding="30">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -13,52 +13,68 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
             <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
                 Text="Welcome" 
                 FontSize="Header"
                 FontAttributes="Bold"
-                HorizontalTextAlignment="Center" />
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Fill"
+            />
 
             <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                 Text="Please Login to Proceed" 
                 FontSize="Medium"
                 FontAttributes="Italic"
-                HorizontalTextAlignment="Center" />
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Fill"
+            />
 
             <Label Grid.Row="2" Grid.Column="0"
                 Text="User Id: "
                 FontSize="Small"
-                HorizontalTextAlignment="Center" />
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Fill"
+            />
 
             <Entry Grid.Row="2" Grid.Column="1"
                 WidthRequest="250"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" 
+                VerticalOptions="Fill"    
+            />
 
             <Label Grid.Row="3" Grid.Column="0"
                 Text="Password: "
                 FontSize="Small"
-                HorizontalTextAlignment="Center" />
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Fill"
+            />
 
             <Entry Grid.Row="3" Grid.Column="1"
                 WidthRequest="250"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" 
+                VerticalOptions="Fill"
+            />
 
             <HorizontalStackLayout Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
-                Spacing="20" HorizontalOptions="Center">
+                Spacing="20" HorizontalOptions="Center" VerticalOptions="Fill">
                 <Button
                     Text="LOGIN"
                     BackgroundColor="Green"
                     WidthRequest="200"
-                    HorizontalOptions="Fill" />
+                    HorizontalOptions="Fill" 
+                    VerticalOptions="Fill"
+                />
                 <Button
                     Text="CLOSE"
                     BackgroundColor="Red"
                     WidthRequest="200"
-                    HorizontalOptions="Fill" />
+                    HorizontalOptions="Fill" 
+                    VerticalOptions="Fill"
+                />
             </HorizontalStackLayout>
         </Grid>
     </VerticalStackLayout>
