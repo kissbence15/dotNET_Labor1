@@ -175,3 +175,4 @@ D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\wi
 D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Egyetem\III. év\dotNET\Labor1\Labor1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Labor1.sourcelink.json

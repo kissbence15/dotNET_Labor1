@@ -4,6 +4,247 @@
              x:Class="Labor1.Feladat4Page"
              Title="Feladat 4">
     <VerticalStackLayout>
+        <Grid Margin="10, 10, 10, 10" RowSpacing="20" ColumnSpacing="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
 
+            <Grid Grid.Row="0" Grid.Column="0"
+                RowSpacing="30"
+                ColumnSpacing="50"
+                Padding="20"
+                Margin="20"
+                BackgroundColor="CadetBlue">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0"
+                    Text="Name"
+                    HorizontalTextAlignment="Center"/>
+
+                <Entry Grid.Row="0" Grid.Column="1"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    WidthRequest="250"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="1" Grid.Column="0"
+                    Text="Age"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="1" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="2" Grid.Column="0"
+                    Text="City"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="2" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="3" Grid.Column="0"
+                    Text="E-mail"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="3" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+            </Grid>
+
+            <Grid Grid.Row="0" Grid.Column="1"
+                RowSpacing="30"
+                ColumnSpacing="50"
+                Padding="20"
+                Margin="20"
+                BackgroundColor="Coral">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0"
+                    Text="Name"
+                    HorizontalTextAlignment="Center"/>
+
+                <Entry Grid.Row="0" Grid.Column="1"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    WidthRequest="250"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="1" Grid.Column="0"
+                    Text="Age"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="1" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="2" Grid.Column="0"
+                    Text="City"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="2" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="3" Grid.Column="0"
+                    Text="E-mail"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="3" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.Column="0"
+                RowSpacing="30"
+                ColumnSpacing="50"
+                Padding="20"
+                Margin="20"
+                BackgroundColor="PaleVioletRed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0"
+                    Text="Name"
+                    HorizontalTextAlignment="Center"/>
+
+                <Entry Grid.Row="0" Grid.Column="1"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    WidthRequest="250"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="1" Grid.Column="0"
+                    Text="Age"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="1" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="2" Grid.Column="0"
+                    Text="City"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="2" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="3" Grid.Column="0"
+                    Text="E-mail"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="3" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.Column="1"
+                RowSpacing="30"
+                ColumnSpacing="50"
+                Padding="20"
+                Margin="20"
+                BackgroundColor="YellowGreen">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0"
+                    Text="Name"
+                    HorizontalTextAlignment="Center"/>
+
+                <Entry Grid.Row="0" Grid.Column="1"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    WidthRequest="250"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="1" Grid.Column="0"
+                    Text="Age"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="1" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="2" Grid.Column="0"
+                    Text="City"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="2" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+
+                <Label Grid.Row="3" Grid.Column="0"
+                    Text="E-mail"
+                    HorizontalTextAlignment="Center" />
+
+                <Entry Grid.Row="3" Grid.Column="1"
+                    WidthRequest="250"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    HorizontalOptions="Fill" />
+            </Grid>
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

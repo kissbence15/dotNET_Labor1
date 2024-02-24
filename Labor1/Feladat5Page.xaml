@@ -4,6 +4,81 @@
              x:Class="Labor1.Feladat5Page"
              Title="Feladat 5">
     <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
 
+            <VerticalStackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center"
+                >
+                <Image Source="dotnet_bot.png"
+                        WidthRequest="200"
+                        HeightRequest="200" />
+                
+                <Image Source="C:\Users\Kiss Bence\Pictures\Avatar\tumblr_pqxkvkiGTQ1rpwm80o1_250.jpg"
+                        WidthRequest="200"
+                        HeightRequest="200" />
+                
+                <Image Source="https://upload.wikimedia.org/wikipedia/commons/9/93/Orangutans2.jpg"
+                        WidthRequest="200"
+                        HeightRequest="200" />
+
+                <HorizontalStackLayout HorizontalOptions="Center"
+                >
+                    <Button
+                        Text="Button 1"
+                        WidthRequest="150"
+                        Margin="20, 0" />
+                    
+                    <Button
+                        Text="Button 2"
+                        WidthRequest="150" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+
+            <Grid Grid.Row="0" Grid.Column="1"
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                
+                <Image  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                        Source="dotnet_bot.png"
+                        WidthRequest="200"
+                        HeightRequest="200" />
+
+                <Image  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        Source="C:\Users\Kiss Bence\Pictures\Avatar\tumblr_pqxkvkiGTQ1rpwm80o1_250.jpg"
+                        WidthRequest="200"
+                        HeightRequest="200" />
+
+                <Image  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                        Source="https://upload.wikimedia.org/wikipedia/commons/9/93/Orangutans2.jpg"
+                        WidthRequest="200"
+                        HeightRequest="200" />
+
+                <Button Grid.Row="3" Grid.Column="0"
+                    Text="Button 1"
+                    WidthRequest="150"
+                    Margin="20, 0" />
+                <Button Grid.Row="3" Grid.Column="1"
+                    Text="Button 2"
+                    WidthRequest="150" />
+            </Grid>
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

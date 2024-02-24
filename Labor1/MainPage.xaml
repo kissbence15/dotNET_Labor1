@@ -5,6 +5,7 @@
 
     <ScrollView>
         <VerticalStackLayout
+            Margin="0, 20"
             Padding="30,0"
             Spacing="25">
             <Entry
@@ -14,12 +15,6 @@
             <Label
                 x:Name="label"
                 Text="Szia" />
-
-            <Button
-                x:Name="button"
-                Text="Click me" 
-                Clicked="OnButtonClicked"
-                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 

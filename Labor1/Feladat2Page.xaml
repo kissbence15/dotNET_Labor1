@@ -4,6 +4,27 @@
              x:Class="Labor1.Feladat2Page"
              Title="Feladat 2">
     <VerticalStackLayout>
-        
+        <HorizontalStackLayout
+            Margin="20, 20"
+            Spacing="20">
+            <Label
+                x:Name="label"
+                Text="Enter Name:"
+                WidthRequest="200"
+                HorizontalOptions="Fill" />
+
+            <Entry
+                x:Name="entry"
+                WidthRequest="200"
+                HorizontalOptions="Fill" />
+
+
+            <Button
+                x:Name="button"
+                Text="Click me"
+                Clicked="OnButtonClicked"
+                WidthRequest="200"
+                HorizontalOptions="Fill" />
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

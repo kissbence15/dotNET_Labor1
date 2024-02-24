@@ -3,7 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Labor1.Feladat6Page"
              Title="Feladat 6">
-    <VerticalStackLayout>
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="30">
+        <Label
+            Text="Top Trumps Authors --> GEORGE ORWELL"
+            BackgroundColor="LightCoral"
+            TextColor="Black"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            VerticalOptions="Fill"
+            HeightRequest="30"
+        />
 
+        <HorizontalStackLayout
+            Padding="20"
+            Spacing="20">
+            <Image 
+                Source="D:\Egyetem\III. év\dotNET\Labor1\Labor1\Resources\Images\george_orwell.jpeg"
+                WidthRequest="300"
+                HeightRequest="300"
+            />
+
+            <VerticalStackLayout
+                Spacing="60"    
+            >
+                <Label 
+                    Text="Writing style - 7"
+                    FontAttributes="Italic"
+                />
+
+                <Label 
+                    Text="Characterisation - 9"
+                    FontAttributes="Italic"
+                />
+
+                <Label 
+                    Text="Influence - 10"
+                    FontAttributes="Italic"
+                />
+
+                <Label 
+                    Text="Readbility - 8"
+                    FontAttributes="Italic"
+                />
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+        
+        <Label
+                Text="George Orwell's major works are 1984, a frightening portrayal of a totalitarian future state, and Animal Farm, an allegory for the Russian revolution and its aftermath."
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="500"
+        />
     </VerticalStackLayout>
 </ContentPage>

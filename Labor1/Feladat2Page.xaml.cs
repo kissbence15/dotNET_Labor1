@@ -6,4 +6,9 @@ public partial class Feladat2Page : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void OnButtonClicked(object sender, EventArgs e)
+    {
+        DisplayAlert("", $"Szia {entry.Text}!", "OK");
+    }
 }
